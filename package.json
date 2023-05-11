@@ -1,0 +1,30 @@
+{
+  "name": "nodejs-projects",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "mongoose": "^6.11.1",
+    "sharp": "^0.32.1",
+    "shortid": "^2.2.16"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ankitkumar6406/URL-SHORTNER.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ankitkumar6406/URL-SHORTNER/issues"
+  },
+  "homepage": "https://github.com/ankitkumar6406/URL-SHORTNER#readme",
+  "description": ""
+}
