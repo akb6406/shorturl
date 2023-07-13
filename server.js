@@ -4,7 +4,7 @@ const ShortUrl = require('./models/shortUrl')
 const app = express()
 
 mongoose.set('strictQuery', true);
-mongoose.connect('mongodb://localhost/urlShortener', {
+mongoose.connect('mongodb+srv://akb6406:baghel@cluster0.exacjzd.mongodb.net/ankitURLShort', {
   useNewUrlParser: true, useUnifiedTopology: true
 })
 
